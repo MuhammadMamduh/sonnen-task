@@ -1,0 +1,23 @@
+TODO:
+1. Remove initialization with values
+
+
+========================================================================================================================
+my_pytest_project/
+│
+├── src/                  # Application source code (optional name 'app', 'package')
+│   ├── __init__.py       # Init file to make this a package
+│   └── main.py           # Main application file
+│
+├── tests/                # Test folder
+│   ├── __init__.py       # Init file to make this a package (optional)
+│   ├── test_sample.py    # Example test file (must start with 'test_')
+│   ├── conftest.py       # Fixtures and hooks for pytest (optional)
+│   └── some_module/      # Subfolder to organize test categories
+│       └── test_module.py
+│
+├── requirements.txt      # List of dependencies (if any)
+├── pytest.ini            # Pytest configuration file (optional)
+├── setup.py              # For packaging (if applicable)
+├── README.md             # Project documentation
+└── .env   

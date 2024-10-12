@@ -11,8 +11,8 @@ class House:
                                 'frequency': '50' + Unit.FREQUENCY.value,
                                 'current': '16' + Unit.CURRENT.value
                                 }
-        print("House created with default values as follows: ")
-        print(self.get_power_metrics())
+        print("House created!")
+        # print(self.get_power_metrics())
     def set(self, key: str, value: str, measurement: str) -> bool:
         if key in self._power_metrics:
             self._power_metrics[key] = value + measurement

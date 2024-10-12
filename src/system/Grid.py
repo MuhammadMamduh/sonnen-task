@@ -12,8 +12,8 @@ class Grid:
                                 'voltage': '230' + Unit.VOLT.value,
                                 'frequency': '50' + Unit.FREQUENCY.value,
                                 }
-        print("Grid created with default values as follows: ")
-        print(self.get_power_metrics())
+        print("Grid created!")
+        # print(self.get_power_metrics())
     def set(self, key: str, value: str, measurement: str) -> bool:
         if key in self._power_metrics:
             self._power_metrics[key] = value + measurement
@@ -32,17 +32,13 @@ class Grid:
 
     def sell_power(self, amount):
         power_sold = self.get_value("power_sold")
-        print(f"Current Power Sold  = {power_sold} {Unit.POWER.value}")
-
         power_sold+=amount
-
         self.set("power_sold", str(power_sold), Unit.POWER.value)
+        print(f"Total Power Sold  = {power_sold}{Unit.POWER.value}")
 
     def buy_power(self, amount):
         power_bought = self.get_value("power_bought")
-        print(f"Current Power Bought  = {power_bought} {Unit.POWER.value}")
-
         power_bought+=amount
-
         self.set("power_bought", str(power_bought), Unit.POWER.value)
+        print(f"Total Power Bought  = {power_bought}{Unit.POWER.value}")
     

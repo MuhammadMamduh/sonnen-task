@@ -13,8 +13,8 @@ class PVPanel:
                                 'voltage_produced': '30' + Unit.VOLT.value,
                                 'current_produced': '10' + Unit.CURRENT.value
                                 }
-        print("PVPanel created with default values as follows: ")
-        print(self.get_power_metrics())
+        print("PVPanel created!")
+        # print(self.get_power_metrics())
 
     def set(self, key: str, value: str, measurement: str) -> bool:
         if key in self._power_metrics:

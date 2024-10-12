@@ -1,8 +1,0 @@
-PVPanel created!
-Grid created!
-House created!
-This sonnenBatterie is of "pro" model & it contains 5 battery module(s), each of 1000 W, the total storage capacity = 5000 W
-The Battery is now 50% charged (2500 W)
-====================================================
-There's no extra power to charge the battery or sell it to the government!
-====================================================

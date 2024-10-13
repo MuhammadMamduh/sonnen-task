@@ -1,0 +1,19 @@
+PVPanel created!
+Grid created!
+House created!
+This sonnenBatterie is of "pro" model & it contains 5 battery module(s), each of 1000 W, the total storage capacity = 5000 W
+The Battery is now 50% charged (2500 W)
+====================================================
+Power Consumption Deficit = 2000 W
+Battery Contains 2500 W (50%)
+Therefore, start consuming the battery power
+Current Battery 50 %
+Battery is discharging ... 40%
+Current Battery 40 %
+Battery is discharging ... 30%
+Current Battery 30 %
+Battery is discharging ... 20%
+Current Battery 20 %
+Battery is discharging ... 10%
+The Battery has covered the power deficit, no need to buy from the government!
+====================================================

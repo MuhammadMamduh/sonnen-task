@@ -1,5 +1,4 @@
 from src.system.battery.SonnenBatterie import SonnenBatterie
-from src.system.utils.Utils import Unit
 from src.system.PVPanel import PVPanel
 from src.system.House import House
 from src.system.Grid import Grid

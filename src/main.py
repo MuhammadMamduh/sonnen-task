@@ -1,9 +1,10 @@
+from typing import List
+
 from src.system.battery.SonnenBatterie import SonnenBatterie
 from src.system.PVPanel import PVPanel
 from src.system.utils.Utils import Unit
 from src.system.Grid import Grid
 from src.system.House import House
-
 
 
 def main():

@@ -6,7 +6,7 @@ from src.system.Grid import Grid
 import pytest
 
 
-@pytest.fixture(params=[("basic", 1), ("standard", 3), ("pro", 5)])
+@pytest.fixture(params=[("basic", 1), ("standard", 3), ("pro", 5)], autouse=True)
 def init_fixture(request):
     panel = PVPanel()
     grid = Grid()
